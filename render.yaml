@@ -15,7 +15,7 @@ services:
         generateValue: true
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
-      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS  # <-- AGGIUNGI
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
     ports:
       - port: 5678
